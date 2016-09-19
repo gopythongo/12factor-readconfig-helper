@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -* encoding: utf-8 *-
 import os
-from setuptools import setup
+from distutils.core import setup
 
 HERE = os.path.dirname(__file__)
 
@@ -26,6 +26,7 @@ setup(
     scripts=[
         "readconfig.sh"
     ],
+    url="https://github.com/gopythongo/12factor-readconfig-helper/",
     author="Jonas Maurus (@jdelic)",
     author_email="jonas-readconfig-helper@gopythongo.com",
     maintainer="@jdelic",
