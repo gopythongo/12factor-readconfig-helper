@@ -15,7 +15,7 @@ command-line after a separator `--` as it's wrapped command.
 
 Example:
 
-.. code-block: shell
+.. code-block:: shell
 
     bin/readconfig.sh /etc/appconfig/myapp -- bin/django-admin.py migrate \
         --settings=myapp.settings
