@@ -1,9 +1,18 @@
 #!/usr/bin/python
 # -* encoding: utf-8 *-
-from distutils.core import setup
+import os
+from setuptools import setup
 
 _package_root = "."
 _version = "1.0.0"
+
+HERE = os.path.dirname(__file__)
+
+try:
+    long_description = open(os.path.join(HERE, 'README.rst')).read()
+except IOError:
+    long_description = None
+
 
 setup(
     name='readconfig-helper',
@@ -26,4 +35,5 @@ setup(
     description="Read files with UPPERCASE filenames in a folder line by line and and export them as environment "
                 "variables. Then execute the rest of the command-line verbatim in the new environment. This is useful "
                 "to set 12factor configuration for command-line utilities.",
+    long_description=long_description,
 )
