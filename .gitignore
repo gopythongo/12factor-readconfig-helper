@@ -1,6 +1,7 @@
 *.iml
 *.pyc
 *.pyd
+MANIFEST
 build/
 dist/
 *.egg-info/
