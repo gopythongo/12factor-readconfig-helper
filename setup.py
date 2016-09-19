@@ -3,9 +3,6 @@
 import os
 from setuptools import setup
 
-_package_root = "."
-_version = "1.0.0"
-
 HERE = os.path.dirname(__file__)
 
 try:
@@ -15,8 +12,8 @@ except IOError:
 
 
 setup(
-    name='readconfig-helper',
-    version=_version,
+    name='12factor-readconfig-helper',
+    version="1.0.0",
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Intended Audience :: Developers",
