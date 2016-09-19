@@ -21,7 +21,7 @@ setup(
         "readconfig.sh"
     ],
     author="Jonas Maurus (@jdelic)",
-    author_email="jdelic-pypi@mncn.de",
+    author_email="jonas-readconfig-helper@gopythongo.com",
     maintainer="@jdelic",
     description="Read files with UPPERCASE filenames in a folder line by line and and export them as environment "
                 "variables. Then execute the rest of the command-line verbatim in the new environment. This is useful "
